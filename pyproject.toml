@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "rag-homework"
+version = "0.1.0"
+description = "Week 5 Homework: a local Naive RAG chat-with-documents app"
+authors = ["Student <you@example.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+chromadb = "^0.5.5"
+ollama = "^0.3.3"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
